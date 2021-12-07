@@ -1,3 +1,9 @@
+
+# open the file  vi /etc/nginx/sites-avalable/default  
+# copy the below code and paste it
+
+
+
 server {
     listen 80;
 
