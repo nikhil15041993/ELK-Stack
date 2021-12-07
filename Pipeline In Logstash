@@ -1,8 +1,9 @@
-
 ## Create the pipeline configuration file
+
 sudo vi /etc/logstash/conf.d/mypipeline.conf
+------------------
 
-
+# pipeline to stash apache access logs into elasticsearch
 
 
 input {
