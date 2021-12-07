@@ -1,4 +1,10 @@
 
+## Create the pipeline configuration file
+sudo vi /etc/logstash/conf.d/mypipeline.conf
+
+
+
+
 input {
   file {
     path => "/var/log/httpd/access_log"   
